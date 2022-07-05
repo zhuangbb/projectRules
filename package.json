@@ -1,0 +1,30 @@
+{
+  "name": "projectRules",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/types/index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuangbb/projectRules.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/zhuangbb/projectRules/issues"
+  },
+  "homepage": "https://github.com/zhuangbb/projectRules#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
